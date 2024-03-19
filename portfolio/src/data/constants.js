@@ -149,7 +149,7 @@ export const Bio = {
       school: "Nanyang Technological University, Singapore",
       date: "Aug 2023 - May 2027",
       grade: "4.19/5.00 CGPA",
-      desc: "I am currently pursuing a Bachelor's degree in Computer Science and Business at Nanyang Technological University, Singapore. I have completed 1 semester and have a CGPA of 4.19. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others.",
+      desc: "I am currently pursuing a Bachelor's degree in Computer Science and Business at Nanyang Technological University, Singapore. I have completed 1 semester and have a CGPA of 4.19. I have taken courses in Digital Logic, Statistics & Analytics, and Data Visualisation, among others.",
       degree: "Double Degree in Computer Science and Business (specialisation in Business Analytics)",
     },
     {
