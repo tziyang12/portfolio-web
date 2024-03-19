@@ -7,7 +7,7 @@ export const Bio = {
       "Student Programmer",
     ],
     description:
-      "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
+      "I'm an enthusiastic and adaptable individual, constantly seeking out new challenges to conquer. Fueled by a deep-seated passion for learning, I'm committed to producing top-notch results in everything I do. With an unwaveringly positive outlook and a mindset geared towards growth, I'm poised to make a significant impact and accomplish remarkable feats. Join me on this journey of discovery and achievement as we strive for excellence together.",
     github: "https://github.com/tziyang12",
     resume:
       "https://drive.google.com/file/d/16JRh8ZvG0a37RHKUvbSOd8hxl5iiQxYG/view?usp=sharing",
