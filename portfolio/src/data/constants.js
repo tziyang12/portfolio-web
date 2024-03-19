@@ -1,7 +1,7 @@
 import lunarwatch from "../images/lunarwatch.png";
 
 export const Bio = {
-    name: "Koh Tzi Yang",
+    name: "Tzi Yang",
     roles: [
       "Full Stack Developer",
       "Student Programmer",
@@ -167,13 +167,13 @@ export const Bio = {
     {
       id: 0,
       title: "Lunar Watch",
-      date: "Mar 2024 - Mar 2024",
+      date: "Mar 2024",
       description:
         "Lunar Watch is a simple web application for viewing cryptocurrency prices. It fetches data from the CoinStats API and displays it in an organized table format. Users can search for specific cryptocurrencies and view their current prices.",
       image: lunarwatch,
       tags: ["React.js", "CoinStats API", "Javascript", "Axios"],
       category: "web app",
-      github: "https://github.com/tziyang12/crypto-react",
+      github: "https://github.com/tziyang12/lunar-watch",
       webapp: "https://lunar-watch.vercel.app/",
     },
   ];

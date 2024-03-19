@@ -1,6 +1,5 @@
 import React from 'react'
-import { Nav, NavLink, NavbarContainer, Span, NavLogo, NavItems, GitHubButton, ButtonContainer, MobileIcon, MobileMenu, MobileLink } from './NavbarStyledComponent'
-import { DiCssdeck } from 'react-icons/di';
+import { Nav, NavLink, NavbarContainer, Span, NavLogo, NavItems, GitHubButton, ButtonContainer, MobileIcon, MobileMenu, MobileLink, ThemeToggleButton, DarkButton } from './NavbarStyledComponent'
 import { FaBars } from 'react-icons/fa';
 import { Bio } from '../../data/constants';
 import { useTheme } from 'styled-components';
@@ -18,15 +17,43 @@ function scrollToTarget(targetId) {
     }
   }
 
-const Navbar = () => {
+const Navbar = ({setDarkMode}) => {
   const [isOpen, setIsOpen] = React.useState(false);
   const theme = useTheme()
   return (
     <Nav>
       <NavbarContainer>
+        {/* button on click change theme */}
+        <DarkButton
+          onClick={() => setDarkMode(prev => !prev)}
+        >
+          <svg height="100px" width="100px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" 
+            viewBox="0 0 56 56" xmlSpace="preserve">
+          <path style={{ fill:'#A5A5A4' }} d="M29,28c0-11.917,7.486-22.112,18-26.147C43.892,0.66,40.523,0,37,0C21.561,0,9,12.561,9,28
+            s12.561,28,28,28c3.523,0,6.892-0.66,10-1.853C36.486,50.112,29,39.917,29,28z"/>
+          </svg>
+        </DarkButton>
+        <ThemeToggleButton
+          darkMode={setDarkMode}
+          onClick={() => setDarkMode(prev => !prev)}
+        >
+          <svg class="sun-and-moon" aria-hidden="true" width="100" height="100" viewBox="0 0 24 24">
+            <circle class="sun" cx="12" cy="12" r="6"/>
+            <g class="sun-beams" stroke="currentColor">
+              <line x1="12" y1="1" x2="12" y2="3" />
+              <line x1="12" y1="21" x2="12" y2="23" />
+              <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
+              <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
+              <line x1="1" y1="12" x2="3" y2="12" />
+              <line x1="21" y1="12" x2="23" y2="12" />
+              <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
+              <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
+            </g>
+          </svg>
+        </ThemeToggleButton>
         <NavLogo to='/'>
           <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20;', cursor: 'pointer' }}>
-            <DiCssdeck size="3rem" /> <Span>Portfolio</Span>
+            <Span>Tzi</Span>
           </a>
         </NavLogo>
         <MobileIcon>

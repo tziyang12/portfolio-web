@@ -41,6 +41,7 @@ export const Span = styled.div`
     padding: 0 4px;
     font-weight: bold;
     font-size: 18px;
+    color: ${({ theme }) => theme.text_primary};
 `;
 export const NavItems = styled.ul`
     width: 100%;
@@ -204,14 +205,72 @@ export  const MobileLink = styled.a`
   }
 `;
 
-export const MobileNavLogo = styled(LinkR)`
-  width: 80%;
-  padding: 0 6px;
-  display: flex;
-  justify-content: start;
-  align-items: center;
-  text-decoration: none;
-  @media (max-width: 640px) {
-    padding: 0 0px;
+export const LightButton = styled.button`
+  --size: 2rem;
+  background: none;
+  border: none;
+  padding: 0;
+  inline-size: var(--size);
+  block-size: var(--size);
+  aspect-ratio: 1;
+  border-radius: 50%;
+  cursor: pointer;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+  outline-offset: 5px;
+  display: ${({ theme }) => (theme.value ? 'block' : 'none')};
+  svg {
+    inline-size: 100%;
+    block-size: 100%;
+    stroke-linecap: round;
+  }
+`;
+
+export const DarkButton = styled.button`
+  --size: 2rem;
+  background: none;
+  border: none;
+  padding: 0;
+  inline-size: var(--size);
+  block-size: var(--size);
+  aspect-ratio: 1;
+  border-radius: 50%;
+  cursor: pointer;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+  outline-offset: 5px;
+  display: ${({ theme }) => (theme.value ? 'none' : 'blk')};
+  svg {
+    inline-size: 100%;
+    block-size: 100%;
+    stroke-linecap: round;
+  }
+`;
+
+export const ThemeToggleButton = styled.button`
+  --size: 2rem;
+  background: none;
+  border: none;
+  padding: 0;
+  inline-size: var(--size);
+  block-size: var(--size);
+  aspect-ratio: 1;
+  border-radius: 50%;
+  cursor: pointer;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+  outline-offset: 5px;
+  display: ${({ theme }) => (theme.value ? 'block' : 'none')};
+
+  svg {
+    inline-size: 100%;
+    block-size: 100%;
+    stroke-linecap: round;
+  }
+
+    & > .sun-beams {
+      stroke: var(--icon-fill);
+      stroke-width: 2px;
+    }
   }
 `;

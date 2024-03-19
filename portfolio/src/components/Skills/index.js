@@ -18,7 +18,7 @@ justify-content: space-between;
 align-items: center;
 flex-direction: column;
 width: 100%;
-max-width: 1800px;
+max-width: 1400px;
 padding-left: 15px;
 padding-right: 15px;
 gap: 12px;

@@ -99,7 +99,7 @@ function Footer() {
   return (
     <FooterContainer>
       <FooterWrapper>
-        <Logo>Koh Tzi Yang</Logo>
+        <Logo>{Bio.name}</Logo>
         <Nav>
           <NavLink href="#" onClick={(e) => { e.preventDefault(); scrollToTarget("about"); }}>About</NavLink>
           <NavLink href="#" onClick={(e) => { e.preventDefault(); scrollToTarget("skills"); }}>Skills</NavLink>

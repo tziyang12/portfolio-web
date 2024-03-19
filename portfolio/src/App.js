@@ -20,18 +20,18 @@ const Body = styled.div`
 `
 
 const Wrapper = styled.div`
-  background: linear-gradient(38.73deg, rgba(204, 0, 187, 0.15) 0%, rgba(247,202,201, 0) 50%), linear-gradient(141.27deg, rgba(0, 70, 209, 0) 50%, rgba(0, 70, 209, 0.15) 100%);
+  background: linear-gradient(38.73deg, ${({ theme }) => theme.gradOne} 0%, rgba(247,202,201, 0) 50%), linear-gradient(141.27deg, rgba(0, 70, 209, 0) 50%, ${({ theme }) => theme.gradTwo} 100%);
   width: 100%;
   clip-path: polygon(0 0, 100% 0, 100% 100%,30% 98%, 0 100%);
 `
 function App() {
-  const [darkMode, setDarkMode] = useState(true);
+  const [darkMode, setDarkMode] = useState(false);
   const [openModal, setOpenModal] = useState({ state: false, project: null });
   console.log(openModal)
   return (
     <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
       <Router >
-        <Navbar />
+        <Navbar setDarkMode={setDarkMode}/>
         <Body>
           <HeroSection />
           <Wrapper>
