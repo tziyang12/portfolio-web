@@ -12,6 +12,7 @@ import Footer from "./components/Footer";
 import Experience from "./components/Experience";
 import Education from "./components/Education";
 import ProjectDetails from "./components/ProjectDetails";
+import { Analytics } from "@vercel/analytics/react";
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -33,6 +34,7 @@ function App() {
       <Router >
         <Navbar setDarkMode={setDarkMode}/>
         <Body>
+          <Analytics />
           <HeroSection />
           <Wrapper>
             <Skills />
