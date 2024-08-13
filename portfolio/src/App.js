@@ -34,7 +34,6 @@ function App() {
       <Router >
         <Navbar setDarkMode={setDarkMode}/>
         <Body>
-          <Analytics />
           <HeroSection />
           <Wrapper>
             <Skills />
