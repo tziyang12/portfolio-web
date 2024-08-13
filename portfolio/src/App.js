@@ -37,12 +37,10 @@ function App() {
           <HeroSection />
           <Wrapper>
             <Skills />
-            {/* Add when work experience is avail */}
-            {/* <Experience /> */}
+            <Experience />
           </Wrapper>
           <Projects openModal={openModal} setOpenModal={setOpenModal} />
           <Wrapper>
-            <Experience />
             <Education />
             <Contact />
           </Wrapper>
