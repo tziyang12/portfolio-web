@@ -133,7 +133,22 @@ export const Bio = {
       img: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJgAAACUCAMAAABY3hBoAAAAA1BMVEX///+nxBvIAAAALElEQVR4nO3BAQ0AAADCoPdPbQ8HFAAAAAAAAAAAAAAAAAAAAAAAAAAAAPBgWHQAAZmS0c0AAAAASUVORK5CYII=",
       role: "Business Analytics Intern",
       company: "DSM-Firmenich",
-      date: "May 2024 - Current",
+      date: "May 2024 - Jul 2024",
+      desc: "NA",
+      skills: [
+        "Excel",
+        "Power BI",
+        "Data Visualisation",
+        "Data Analysis",
+      ],
+      doc: "",
+    },
+    {
+      id: 1,
+      img: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJgAAACUCAMAAABY3hBoAAAAA1BMVEX///+nxBvIAAAALElEQVR4nO3BAQ0AAADCoPdPbQ8HFAAAAAAAAAAAAAAAAAAAAAAAAAAAAPBgWHQAAZmS0c0AAAAASUVORK5CYII=",
+      role: "Junior Business Analyst",
+      company: "DSM-Firmenich",
+      date: "Jul 2024 - Current",
       desc: "NA",
       skills: [
         "Excel",
