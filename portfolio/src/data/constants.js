@@ -136,10 +136,10 @@ export const Bio = {
       date: "Jul 2024 - Nov 2024",
       desc: "I developed custom Python scripts to track and analyze sales pipeline data, enhancing visibility into key opportunities and improving phase transition insights. I also enhanced Power BI dashboards, transforming them into dynamic tools that delivered real-time performance insights for stakeholders. Additionally, I created resource tracking solutions to streamline coordination for high-profile events, improving cross-regional visibility and operational efficiency.",
       skills: [
-        "Excel",
         "Power BI",
         "Data Visualisation",
         "Data Analysis",
+        "Python",
       ],
       doc: "",
     },
