@@ -130,7 +130,7 @@ export const Bio = {
   export const experiences = [
     {
       id: 0,
-      img: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJgAAACUCAMAAABY3hBoAAAAA1BMVEX///+nxBvIAAAALElEQVR4nO3BAQ0AAADCoPdPbQ8HFAAAAAAAAAAAAAAAAAAAAAAAAAAAAPBgWHQAAZmS0c0AAAAASUVORK5CYII=",
+      img: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Royal_DSM.svg/2560px-Royal_DSM.svg.png",
       role: "Junior Business Analyst",
       company: "DSM-Firmenich",
       date: "Jul 2024 - Current",
