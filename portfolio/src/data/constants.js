@@ -145,7 +145,7 @@ export const Bio = {
     },
     {
       id: 1,
-      img: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJgAAACUCAMAAABY3hBoAAAAA1BMVEX///+nxBvIAAAALElEQVR4nO3BAQ0AAADCoPdPbQ8HFAAAAAAAAAAAAAAAAAAAAAAAAAAAAPBgWHQAAZmS0c0AAAAASUVORK5CYII=",
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScH9t_bUqzlJYfhJdo0QEVyRHCu7prOAEcng&s",
       role: "Business Analytics Intern",
       company: "DSM-Firmenich",
       date: "May 2024 - Jul 2024",
