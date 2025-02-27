@@ -131,10 +131,10 @@ export const Bio = {
     {
       id: 0,
       img: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJgAAACUCAMAAABY3hBoAAAAA1BMVEX///+nxBvIAAAALElEQVR4nO3BAQ0AAADCoPdPbQ8HFAAAAAAAAAAAAAAAAAAAAAAAAAAAAPBgWHQAAZmS0c0AAAAASUVORK5CYII=",
-      role: "Business Analytics Intern",
+      role: "Junior Business Analyst",
       company: "DSM-Firmenich",
-      date: "May 2024 - Jul 2024",
-      desc: "NA",
+      date: "Jul 2024 - Current",
+      desc: "With a strong focus on turning data into actionable insights, I have worked extensively across the APAC region to analyze sales performance, identify emerging trends, and support data-driven strategies for product optimization. \n\nConducted in-depth analysis of sales data, uncovering key patterns and opportunities to enhance product performance in diverse markets.\n Spearheaded the development of Power BI dashboards, streamlining reporting processes and improving data transparency for stakeholders. \nPartnered closely with Marketing teams and product experts to align data insights with business goals, ensuring decisions were backed by accurate, real-time data.\nDelivered visual reports and presentations to senior management, translating complex data into clear, strategic recommendations to drive growth.",
       skills: [
         "Excel",
         "Power BI",
@@ -146,9 +146,9 @@ export const Bio = {
     {
       id: 1,
       img: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJgAAACUCAMAAABY3hBoAAAAA1BMVEX///+nxBvIAAAALElEQVR4nO3BAQ0AAADCoPdPbQ8HFAAAAAAAAAAAAAAAAAAAAAAAAAAAAPBgWHQAAZmS0c0AAAAASUVORK5CYII=",
-      role: "Junior Business Analyst",
+      role: "Business Analytics Intern",
       company: "DSM-Firmenich",
-      date: "Jul 2024 - Current",
+      date: "May 2024 - Jul 2024",
       desc: "NA",
       skills: [
         "Excel",
