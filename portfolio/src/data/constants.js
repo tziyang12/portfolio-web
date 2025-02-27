@@ -134,7 +134,7 @@ export const Bio = {
       role: "Junior Business Analyst",
       company: "DSM-Firmenich",
       date: "Jul 2024 - Current",
-      desc: "With a strong focus on turning data into actionable insights, I have worked extensively across the APAC region to analyze sales performance, identify emerging trends, and support data-driven strategies for product optimization. \n\nConducted in-depth analysis of sales data, uncovering key patterns and opportunities to enhance product performance in diverse markets.\n Spearheaded the development of Power BI dashboards, streamlining reporting processes and improving data transparency for stakeholders. \nPartnered closely with Marketing teams and product experts to align data insights with business goals, ensuring decisions were backed by accurate, real-time data.\nDelivered visual reports and presentations to senior management, translating complex data into clear, strategic recommendations to drive growth.",
+      desc: "With a strong focus on turning data into actionable insights, I have worked extensively across the APAC region to analyze sales performance, identify emerging trends, and support data-driven strategies for product optimization.",
       skills: [
         "Excel",
         "Power BI",
