@@ -111,7 +111,7 @@ function Footer() {
           <SocialMediaIcon href={Bio.insta} target="display"><InstagramIcon /></SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>
-          &copy; 2024 Koh Tzi Yang. All rights reserved.
+          &copy; 2026 Koh Tzi Yang. All rights reserved.
         </Copyright>
 
       </FooterWrapper>
