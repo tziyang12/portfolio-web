@@ -1,5 +1,5 @@
 import styled, { ThemeProvider } from "styled-components";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { darkTheme, lightTheme } from './utils/Themes.js'
 import Navbar from "./components/Navbar";
 import './App.css';
@@ -12,7 +12,6 @@ import Footer from "./components/Footer";
 import Experience from "./components/Experience";
 import Education from "./components/Education";
 import ProjectDetails from "./components/ProjectDetails";
-import { Analytics } from "@vercel/analytics/react";
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};

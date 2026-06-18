@@ -52,9 +52,7 @@ const Navbar = ({setDarkMode}) => {
           </svg>
         </ThemeToggleButton>
         <NavLogo to='/'>
-          <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20;', cursor: 'pointer' }}>
-            <Span>Tzi</Span>
-          </a>
+          <Span>Tzi</Span>
         </NavLogo>
         <MobileIcon>
           <FaBars onClick={() => {
