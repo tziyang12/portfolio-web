@@ -10,7 +10,7 @@ export const Bio = {
       "I'm an enthusiastic and adaptable individual, constantly seeking out new challenges to conquer. Fueled by a deep-seated passion for learning, I'm committed to producing top-notch results in everything I do. With an unwaveringly positive outlook and a mindset geared towards growth, I'm poised to make a significant impact and accomplish remarkable feats. ",
     github: "https://github.com/tziyang12",
     resume:
-      "https://drive.google.com/file/d/16JRh8ZvG0a37RHKUvbSOd8hxl5iiQxYG/view?usp=sharing",
+      "https://drive.google.com/file/d/1CTk9IWs_SGfm3MqPV7juG1tnKWmIAW7M/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/kohtziyang/",
     insta: "https://www.instagram.com/tyxng._/",
   };
